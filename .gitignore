@@ -1,52 +1,48 @@
 ```
-# Dependencies
-vendor/
+# Compressed files
+*.tar.gz
 
-# Runtime generated files
-runtime/
-assets/
-
-# Environment
+# Environment files
 .env
 .env.local
-.env.*
+*.env.*
 
-# Logs
+# Logs and temporary files
 *.log
+*.tmp
 
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDE
+# Editor/IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
 
+# Dependency directories
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.dll
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.out
+
 # Build artifacts
-build/
 dist/
-*.phar
-
-# Cache
-.cache/
-.php_cs.cache
-
-# Tests
-.tests/
-test-results/
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Compression
+build/
+target/
+*.class
+*.jar
+*.war
+*.ear
 *.zip
 *.gz
-*.tar
-*.tgz
 *.bz2
 *.xz
 *.7z
@@ -61,8 +57,44 @@ htmlcov/
 *.Z
 *.lz
 *.lzo
-*.tar.gz
-*.tar.bz2
-*.tar.xz
-*.tar.zst
+
+# Python specific
+*.pyc
+*.pyo
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
+coverage/
+htmlcov/
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+target/
+.gradle/
+build/
+
+# C/C++ specific
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+
+# System files
+.DS_Store
+Thumbs.db
 ```
