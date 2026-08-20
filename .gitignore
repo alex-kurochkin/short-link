@@ -17,22 +17,6 @@
 *.swp
 *.swo
 
-# Dependency directories
-node_modules/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.so
-*.dylib
-*.dll
-*.exe
-*.o
-*.obj
-*.a
-*.lib
-*.out
-
 # Build artifacts
 dist/
 build/
@@ -58,43 +42,37 @@ target/
 *.lz
 *.lzo
 
-# Python specific
-*.pyc
-*.pyo
-__pycache__/
-.pytest_cache/
-.mypy_cache/
-.coverage
-coverage/
-htmlcov/
-
 # Node.js specific
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Java specific
-*.class
-*.jar
-*.war
-*.ear
-target/
-.gradle/
-build/
-
-# C/C++ specific
-*.o
-*.obj
-*.a
-*.lib
-*.so
-*.dylib
-*.dll
-*.exe
-*.out
-
 # System files
 .DS_Store
 Thumbs.db
+
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/auth.json
+/.fleet
+/.idea
+/.nova
+/.vscode
+/.zed
 ```
